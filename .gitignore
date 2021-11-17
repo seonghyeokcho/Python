@@ -1,6 +1,3 @@
-# exception
-!function_terms.png
-
 /**/.ipynb_checkpoints
 
 .vscode
@@ -72,3 +69,8 @@
 
 # web_programming
 /web_programming/project/covid_19
+
+# exception
+!/basic_notion/images/
+/basic_notion/images/*
+!/basic_notion/images/function_terms.png
