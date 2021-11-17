@@ -1,0 +1,71 @@
+/**/.ipynb_checkpoints
+
+.vscode
+
+/**/data
+/**/dataset
+/**/images
+/**/text
+/**/__pycache__
+/**/pdf
+/**/ppt
+/**/chromedriver
+
+*.txt
+*.jpg
+*.png
+*.pdf
+*.pptx
+*.csv
+*.xlsx
+*.pkl
+*.xml
+*.names
+*.exe
+
+# basic_notion
+/basic_notion/profile.pkl
+
+# computer_vision
+/computer_vision
+
+# deep_learning
+/deep_learning/class
+/deep_learning/frameworks
+
+# etc
+/etc
+
+# graphic_user_interface
+
+# hacking
+/hacking
+
+# kalman_filter
+/kalman_filter
+
+# machine_mearning
+/machine_mearning/class
+/machine_mearning/subjects
+/machine_learning/handson
+
+# numpy
+
+
+# pandas
+
+
+# projects
+/projects
+
+# pygame
+
+
+# robotic_process_automation
+
+
+# visualization
+/visualization
+
+# web_programming
+/web_programming/project/covid_19
