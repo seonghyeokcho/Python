@@ -30,7 +30,7 @@
 /computer_vision
 
 # deep_learning
-/deep_learning/class
+/deep_learning/lecture
 /deep_learning/frameworks
 
 # etc
@@ -44,9 +44,8 @@
 # kalman_filter
 /kalman_filter
 
-# machine_mearning
-/machine_learning/class
-/machine_learning/subjects
+# machine_learning
+/machine_learning/lecture
 /machine_learning/handson
 
 # numpy
