@@ -45,8 +45,8 @@
 /kalman_filter
 
 # machine_mearning
-/machine_mearning/class
-/machine_mearning/subjects
+/machine_learning/class
+/machine_learning/subjects
 /machine_learning/handson
 
 # numpy
