@@ -32,14 +32,7 @@
 
 
 # computer_vision
-# /computer_vision/lecture/ch08/digits
-# /computer_vision/lecture/ch12/googlenet
-# /computer_vision/lecture/ch13/EAST
-# /computer_vision/lecture/ch13/face_rec/train_images
-# /computer_vision/lecture/ch13/mask_rcnn
-# /computer_vision/lecture/ch13/opencv_face_detector
-# /computer_vision/lecture/ch13/openpose
-# /computer_vision/lecture/ch13/yolo_v3
+
 
 # deep_learning
 /deep_learning/lecture
