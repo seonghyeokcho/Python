@@ -43,6 +43,7 @@
 
 # graphic_user_interface
 
+
 # hacking
 /hacking
 
@@ -75,6 +76,6 @@
 /web_programming/project/covid_19
 
 # exception
-!/basic_notion/images/
-/basic_notion/images/*
-!/basic_notion/images/function_terms.png
+# !/basic_notion/images/
+# /basic_notion/images/*
+# !/basic_notion/images/function_terms.png
