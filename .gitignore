@@ -1,16 +1,17 @@
+# folders
 /**/.ipynb_checkpoints
-
-.vscode
-
 /**/data
 /**/dataset
 /**/images
+/**/videos
 /**/text
 /**/__pycache__
 /**/pdf
 /**/ppt
 /**/chromedriver
 
+# filename extension
+.vscode
 *.txt
 *.jpg
 *.png
@@ -28,54 +29,60 @@
 *.exe
 *.pb
 
+# projects
+/00_projects
+
 # basic_notion
 
 
-# computer_vision
+# image_processing
 
-
-# deep_learning
-/deep_learning/lecture
-/deep_learning/frameworks
-
-# etc
-/etc
-
-# graphic_user_interface
-
-
-# hacking
-/hacking
-
-# kalman_filter
-/kalman_filter
 
 # machine_learning
-/machine_learning/lecture
-/machine_learning/handson
+/03_machine_learning/lecture
+/03_machine_learning/handson
 
-# numpy
+# deep_learning
+/04_deep_learning/lecture
+/04_deep_learning/frameworks
 
+# web_programming
+/05_web_programming/project/covid_19
 
-# pandas
-
-
-# projects
-/projects
-
-# pygame
+# external_library
 
 
 # robotic_process_automation
 
 
 # visualization
-/visualization
+/08_visualization
 
-# web_programming
-/web_programming/project/covid_19
+# graphic_user_interface
+
+
+# pygame
+
+
+# hacking
+/11_hacking
+
+# kalman_filter
+/12_kalman_filter
+
+# etc
+/etc
 
 # exception
 # !/basic_notion/images/
 # /basic_notion/images/*
 # !/basic_notion/images/function_terms.png
+
+
+
+
+
+
+
+
+
