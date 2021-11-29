@@ -1,1 +1,1 @@
-$$\color{Red}programming with python$$
+$${\color{Red}programming with python}$$
