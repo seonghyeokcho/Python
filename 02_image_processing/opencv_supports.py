@@ -6,10 +6,9 @@ imread_flags = {
     "unchanged":cv2.IMREAD_UNCHANGED
     }
 
-def load_image(src, flag="color"):
+def load_image(src, flag = "color"):
     if flag not in imread_flags.keys():
-        print(f"This \"{flag}\" flag key is not in imread_flags dictionary.")
-        return
+        return print(f"This \"{flag}\" flag key is not in imread_flags dictionary.")
     
     matrix = cv2.imread(
         "/Users/csh/programming_language/001_Python/02_image_processing/images/" + src,
