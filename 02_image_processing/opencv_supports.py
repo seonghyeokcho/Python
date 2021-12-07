@@ -7,6 +7,17 @@ imread_flags = {
     }
 
 def load_image(src, flag = "color"):
+    """Return a image matrix
+
+    Args:
+        src (str): Name of file to be loaded.
+        flag (str, optional): Flag that can take values of cv::ImreadModes.
+                            : Defaults to "color".
+
+    Returns:
+        Matrix: Matrix of loaded image.
+    """
+    
     if flag not in imread_flags.keys():
         return print(f"This \"{flag}\" flag key is not in imread_flags dictionary.")
     
@@ -17,6 +28,8 @@ def load_image(src, flag = "color"):
     return matrix
 
 def close_opencv_window_for_macOS():
+    """Return a statement"""
+    
     cv2.waitKey()
     cv2.destroyAllWindows()
     cv2.waitKey(1)
