@@ -3,7 +3,7 @@ import numpy as np
 import cv2
 
 
-src = cv2.imread('namecard.jpg')
+src = cv2.imread('02_image_processing/images/namecard.jpg')
 
 if src is None:
     print('Image load failed!')
@@ -20,3 +20,4 @@ cv2.imshow('src', src)
 cv2.imshow('dst', dst)
 cv2.waitKey()
 cv2.destroyAllWindows()
+cv2.waitKey(1)
