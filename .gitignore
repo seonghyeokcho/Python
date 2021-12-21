@@ -29,9 +29,6 @@
 *.exe
 *.pb
 
-# vacode-workspace
-Python.code-workspace
-
 # projects
 /00_projects
 
