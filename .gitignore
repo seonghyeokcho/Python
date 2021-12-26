@@ -3,13 +3,13 @@
 /**/.ipynb_checkpoints
 /**/data
 /**/dataset
-/**/images
-/**/videos
 /**/text
 /**/__pycache__
 /**/pdf
 /**/ppt
 /**/chromedriver
+# /**/images
+# /**/videos
 
 # filename extension
 *.txt
