@@ -13,9 +13,9 @@
 
 # filename extension
 *.txt
-*.jpg
-*.png
-*.bmp
+# *.jpg
+# *.png
+# *.bmp
 *.mp4
 *.avi
 *.pdf
