@@ -1,4 +1,4 @@
-## <font color = "#CC3D3D">Overview</font>
+# <font color = "#CC3D3D">Overview</font>
 <hr>
 
 - 강의 개요
