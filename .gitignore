@@ -10,6 +10,7 @@
 /**/chromedriver
 # /**/images
 # /**/videos
+/**/MNIST_data
 
 # filename extension
 *.txt
@@ -29,6 +30,7 @@
 *.exe
 *.pb
 *.h5
+*.gz
 
 # projects
 /00_projects
