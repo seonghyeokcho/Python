@@ -36,9 +36,10 @@ if not cap.isOpened():
 
 # Network
 
-model = '../opencv_face_detector/res10_300x300_ssd_iter_140000_fp16.caffemodel'
-config = '../opencv_face_detector/deploy.prototxt'
-
+# model = '../opencv_face_detector/res10_300x300_ssd_iter_140000_fp16.caffemodel'
+model = "/Users/csh/programming_language/001_Python/02_computervision/lecture/computer_vision_and_machine_learning/pre-trained/opencv_face_detector/res10_300x300_ssd_iter_140000_fp16.caffemodel"
+# config = '../opencv_face_detector/deploy.prototxt'
+config = "/Users/csh/programming_language/001_Python/02_computervision/lecture/computer_vision_and_machine_learning/pre-trained/opencv_face_detector/deploy.prototxt"
 net = cv2.dnn.readNet(model, config)
 
 if net.empty():
@@ -112,4 +113,6 @@ while True:
     if cv2.waitKey(1) == 27:
         break
 
+cap.release()
 cv2.destroyAllWindows()
+cv2.waitKey(1)
