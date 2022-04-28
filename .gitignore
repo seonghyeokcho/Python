@@ -32,6 +32,7 @@
 *.pb
 *.h5
 *.gz
+*.caffemodel
 
 # projects
 /00_projects
