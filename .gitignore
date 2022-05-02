@@ -12,6 +12,7 @@
 # /**/videos
 /**/MNIST_data
 /**/pre-trained
+/**/model
 
 # filename extension
 *.txt
@@ -33,6 +34,7 @@
 *.h5
 *.gz
 *.caffemodel
+
 
 # projects
 /00_projects
