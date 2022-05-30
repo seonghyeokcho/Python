@@ -13,6 +13,7 @@
 /**/MNIST_data
 /**/pre-trained
 /**/model
+/**/projects
 
 # filename extension
 *.txt
@@ -43,7 +44,7 @@
 
 
 # computervision
-
+/02_computervision/recipes/detection/devkits
 
 # machine_learning
 /03_machine_learning/lecture
