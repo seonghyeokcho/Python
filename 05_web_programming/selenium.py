@@ -1,7 +1,7 @@
 from selenium.webdriver import Chrome
 import time
 
-browser = Chrome("/Users/csh/jupytercreation/Python_Practice/webcrawling/chromedriver")
+browser = Chrome("/Users/csh/programming_language/001_Python/05_web_programming/chromedriver")
 
 # 1. 네이버로 이동
 url = "http://www.naver.com"
