@@ -1,30 +1,21 @@
-import threading
-import _thread
+import requests
+from bs4 import BeautifulSoup as bs4
 
 
-stack = 0
+headers = {"User-Agent":'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36'}
 
-while 1:
-    # Called impatient calculator
-    timer = threading.Timer(10.0, _thread.interrupt_main)
-    try:
-        timer.start()
-        operand_1 = int(input("Choose a number:\n"))
-        operand_2 = int(input("Choose another one:\n"))
-        operation = input("Choose an operation:\n\tOptions are: + , - , * or /.\n\tWrite 'exit' to finish.\n")
-    except KeyboardInterrupt as K:
-        print("Time out!!!🤯")
-        break
+websites = [
+    "google.com",
+    "airbnb.com",
+    "twitter.com",
+    "facebook.com"
+]
+
+for website in websites:
+    if not website.startswith("http://"):
+        website = f"http://{website}"
+    # result = requests.get(website)
+    # result.raise_for_status()
+    print(website)
     
-    timer.cancel()
     
-    if operation.lower() == "exit":
-        break
-    elif operation in ["+","-","*","/"]:
-        print("Result:", eval(f"{operand_1}{operation}{operand_2}"))
-    else:
-        stack += 1
-        if stack == 3:
-            print("The calculator be stopped!!🤯")
-            break
-        print(f"Not in options! Try again from the first!🤨 ({stack}/3)")
