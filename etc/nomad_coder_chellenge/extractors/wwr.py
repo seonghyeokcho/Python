@@ -2,7 +2,7 @@ import requests
 from bs4 import BeautifulSoup as bs4
 
 
-def extract_jobs(keyword):
+def extract_wwr_jobs(keyword):
     headers = {"User-Agent":'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36'}
 
     base_url = "https://weworkremotely.com/remote-jobs/search?term="
