@@ -26,7 +26,8 @@ for job_section in jobs:
         job_data = {
             "company": company.string,
             "region": region.string,
-            "position": title.string
+            "position": title.string,
+            "link": f"https://weworkremotely.com{link}"
         }
         results.append(job_data)
         
