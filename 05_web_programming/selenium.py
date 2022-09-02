@@ -1,7 +1,7 @@
 from selenium.webdriver import Chrome
 import time
 
-browser = Chrome("/Users/csh/programming_language/001_Python/05_web_programming/chromedriver")
+browser = Chrome("/Users/csh/programming_language/001_Python/etc/nomad_coder_chellenge/chromedriver")
 
 # 1. 네이버로 이동
 url = "https://www.naver.com"
