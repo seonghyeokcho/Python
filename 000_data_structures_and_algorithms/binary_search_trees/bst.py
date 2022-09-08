@@ -91,7 +91,7 @@ and a pointer to the root.
               [left_line + ' ' * (width - left_width - right_width) + \
                 right_line for left_line, right_line in zip(left_lines, right_lines)]
             return lines, pos, width
-        return '\n'.join(recurse(self.root) [0])
+        return '\n'.join(recurse(self.root)[0])
 
 class BSTnode(object):
     """
@@ -127,4 +127,4 @@ def test(args=None, BSTtype=BST):
         print(tree)
 
 if __name__ == '__main__':
-    test()
+    test("6")
