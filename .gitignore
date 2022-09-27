@@ -49,6 +49,7 @@
 02_computervision/recipes/Detection/yolov3_tf2/
 02_computervision/recipes/Detection/yolov5/
 02_computervision/framework/pytorch/fastbook-master
+02_computervision/framework/pytorch/first_step_for_pytorch
 
 # machine_learning
 /03_machine_learning/lecture
