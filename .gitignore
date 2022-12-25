@@ -37,30 +37,6 @@
 *.caffemodel
 
 
-# projects
-/00_projects
-
-# basic_notion
-
-
-# computervision
-02_computervision/recipes/detection/devkits
-02_computervision/recipes/Detection/yolov3/
-02_computervision/recipes/Detection/yolov3_tf2/
-02_computervision/recipes/Detection/yolov5/
-02_computervision/framework/pytorch/fastbook-master/images
-
-# machine_learning
-/03_machine_learning/lecture
-/03_machine_learning/handson
-
-# deep_learning
-/04_deep_learning/lecture
-/04_deep_learning/frameworks
-
-# web_programming
-/05_web_programming/project/covid_19
-
 # robotic_process_automation
 
 
@@ -72,12 +48,6 @@
 
 # pygame
 
-
-# hacking
-/11_hacking
-
-# kalman_filter
-/12_kalman_filter
 
 # etc
 
