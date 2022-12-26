@@ -8,8 +8,8 @@
 /**/pdf
 /**/ppt
 /**/chromedriver
-# /**/images
-# /**/videos
+/**/images
+/**/videos
 /**/MNIST_data
 /**/pre-trained
 /**/model
@@ -17,9 +17,9 @@
 
 # filename extension
 *.txt
-# *.jpg
-# *.png
-# *.bmp
+*.jpg
+*.png
+*.bmp
 *.mp4
 *.avi
 *.pdf
@@ -35,23 +35,3 @@
 *.h5
 *.gz
 *.caffemodel
-
-
-# robotic_process_automation
-
-
-# visualization
-/08_visualization
-
-# graphic_user_interface
-
-
-# pygame
-
-
-# etc
-
-
-# exception
-
-
