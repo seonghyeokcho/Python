@@ -1,33 +1,37 @@
-# 확률 10^30 배 올리기
+# 확률 10^30 배 올리기 - loop strategy(루프 전략)
 import random
 
 
-def solution(boxes, numbers):
-    answer = []
-    d = {}
-    for k, v in zip(boxes, numbers):
-        d[k] = v
-    for i in boxes:
-        link = i
-        count = 0
-        while count < 50:
-            count += 1
-            if d[link] == i:
-                answer.append(True)
-                break
-            else: link = d[link]
-        else: break
-    return len(answer)
+def optimized_loop(boxes, numbers):
+    count = 0
+    pairs = {box: number for box, number in zip(boxes, numbers)}
 
-total = []
-for i in range(5000):
-    boxes = list(range(1, 101))
+    for box in boxes:
+        choice = box
+        for _ in range(len(boxes) // 2):
+            choice = pairs[choice]
+            if choice == box:
+                count += 1
+                break
+        else:
+            break
+
+    return count
+
+prisoner_numbers = 100
+trials = 10000
+success_count = 0
+
+for _ in range(trials):
+    boxes = list(range(1, prisoner_numbers + 1))
     numbers = boxes.copy()
     random.shuffle(numbers)
-    result = solution(boxes, numbers)
-    if result == 100:
-        total.append(True)
-    else:
-        total.append(False)
+    result = optimized_loop(boxes, numbers)
+    if result == prisoner_numbers:
+        success_count += 1
 
-print(float(sum(total)) / float(len(total)))
+success_rate = success_count / trials
+
+print(f"Success: {success_count}")
+print(f"Failure: {trials - success_count}")
+print(f"Success Rate: {success_rate}")
